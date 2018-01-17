@@ -1,0 +1,50 @@
+/* Universal Styles  */
+body {
+  color: white;
+  background-color: black;
+  border: 1px solid red;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 100%;
+  border: 1px solid blue;
+}
+
+/* Header Section */
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  margin: 0;
+}
+
+.header-text {
+  vertical-align: middle;
+  border: 1px solid green;
+}
+
+
+/*  Banner Section  */
+.banner-image {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/moto.jpeg");
+  width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  background-color: black;
+}
+
+
+/*  Navigation Section  */
+.nav {
+  background-color: maroon;
+}
