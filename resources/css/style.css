@@ -17,7 +17,6 @@ h1 {
   margin-left: 3rem;
   margin-bottom: 2rem;
   margin-right: 3rem;
-  border: 1px solid yellow;
 }
 
 h2 {
@@ -29,11 +28,17 @@ h2 {
 
 }
 
+h3 {
+  padding-left: 2rem;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 nav {
   width: 80%;
   display: flex;
   justify-content: space-between;
-  border: 1px solid purple;
 }
 
 .main-container {
@@ -41,7 +46,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid blue;
 }
 
 /* Header Section */
@@ -68,8 +72,8 @@ nav {
 .banner {
   width: 100%;
   height: 25rem;
-  border: 1px solid blue;
 }
+
 .banner-image {
   display: flex;
   align-items: center;
@@ -77,7 +81,7 @@ nav {
   width: 100%;
   height: 25rem;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 .banner-text {
@@ -89,7 +93,6 @@ nav {
   width: 40%;
   margin-left: 10%;
   margin-top: 9rem;
-  border: 1px solid red;
 }
 
 
@@ -99,6 +102,8 @@ nav {
   justify-content: center;
   width: 100%;
   background-color: firebrick;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
 }
 
 /*  Product Section  */
@@ -107,7 +112,6 @@ nav {
   display: flex;
   justify-content: center;
   background-color: white;
-  border: 1px solid red;
 }
 
 .product-container {
@@ -115,7 +119,7 @@ nav {
   height: 15rem;
   display: flex;
   justify-content: space-between;
-  border: 1px solid orange;
+  margin-top: 3rem;
 }
 
 .product-image {
@@ -125,7 +129,7 @@ nav {
   align-items: center;
   width: 30%;
   height: auto;
-  border: 1px solid green;
+  border: 4px solid black;
 }
 
 .product-image img {
@@ -134,5 +138,56 @@ nav {
   align-items: center;
   height: 9rem;
   width: 9rem;
-  border: 1px solid red;
+  margin: 2rem;
+}
+
+.product-image span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/*  Location-Hours Section  */
+.location-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+
+.location-hours {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 3rem;
+}
+
+.location,
+.hours {
+  width: 35%;
+}
+
+.location-hours p {
+  color: black;
+  background-color: white;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+/*  Footer Section  */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+}
+
+.copyright-container {
+  width: 80%;
+  margin: 2.5rem;
 }
