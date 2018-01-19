@@ -99,5 +99,40 @@ nav {
   justify-content: center;
   width: 100%;
   background-color: firebrick;
+}
+
+/*  Product Section  */
+.product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid red;
+}
+
+.product-container {
+  width: 80%;
+  height: 15rem;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid orange;
+}
+
+.product-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: auto;
   border: 1px solid green;
+}
+
+.product-image img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  width: 9rem;
+  border: 1px solid red;
 }
