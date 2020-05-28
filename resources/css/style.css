@@ -20,12 +20,11 @@ h1 {
 }
 
 h2 {
-  display:flex;
+  display: flex;
   font-size: 1rem;
   font-weight: bold;
   margin-top: 2rem;
   margin-left: 3rem;
-
 }
 
 h3 {
@@ -79,6 +78,7 @@ nav {
   align-items: center;
   background-image: url("../images/moto.jpeg");
   background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 25rem;
   background-size: cover;
@@ -93,7 +93,7 @@ nav {
   max-width: 40%;
   max-height: 50%;
   margin-left: 10%;
-  margin-top: 9rem;
+  /* margin-top: 2rem; */
 }
 
 /*  Navigation Section  */
@@ -102,8 +102,8 @@ nav {
   justify-content: center;
   width: 100%;
   background-color: firebrick;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 /*  Product Section  */
@@ -127,7 +127,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  min-width: 30%;
   height: auto;
   margin: 0 auto;
   border: 4px solid black;
@@ -230,7 +230,14 @@ nav {
   }
 
   h1 {
-    font-size: 1.5rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 1rem 3rem;
+    text-align: center;
   }
 
   .banner-text {
@@ -239,6 +246,9 @@ nav {
     max-width: 50%;
   }
 
+  .copyright-container {
+    margin-left: 0.5rem;
+  }
 }
 
 @media only screen and (min-width: 1023px) {
@@ -249,20 +259,18 @@ nav {
   .nav span {
     display: flex;
     justify-content: center;
-    border: 1px solid green;
   }
 }
 
 @media only screen and (max-width: 470px) {
-
   h1 {
     font-size: 1rem;
     padding-bottom: 1rem;
   }
 
-  h2{
-    font-size: .77rem;
-    padding-bottom: .5rem;
+  h2 {
+    font-size: 0.77rem;
+    padding-bottom: 0.5rem;
   }
 
   .header-text {
@@ -279,7 +287,6 @@ nav {
 
   .banner-image {
     max-height: 15rem;
-
   }
 
   .banner-text {
@@ -320,5 +327,4 @@ nav {
   .copyright-container {
     text-align: center;
   }
-
 }
